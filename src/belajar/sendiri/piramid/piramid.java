@@ -37,11 +37,11 @@ public class piramid {
             System.out.println();
         }
         for (int perulanganBawah = 1; perulanganBawah <= input; perulanganBawah++){
-            for (int bintangAtas = 1; bintangAtas <= perulanganBawah-1; bintangAtas++){
+            for (int bintangAtas = 1; bintangAtas <= perulanganBawah - 1; bintangAtas++){
                 System.out.print(" ");
             }
             for (int bintangBawah = 1; bintangBawah <= input - perulanganBawah + 1; bintangBawah++){
-                System.out.print("*");
+                System.out.print(bintangBawah);
             }
             System.out.println();
         }
